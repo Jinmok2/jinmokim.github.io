@@ -3,40 +3,16 @@
   "title": "Building in UIUC (1985-2005)",
   "data": {
     "values": [
-      {
-        "Year Acquired": 2003,
-        "Year Constructed": 2003,
-        "Square Footage": 50840
-      },
-      {
-        "Year Acquired": 1990,
-        "Year Constructed": 1989,
-        "Square Footage": 48533
-      },
-      {
-        "Year Acquired": 1992,
-        "Year Constructed": 1991,
-        "Square Footage": 21845
-      },
+      {"Year Acquired": 2003, "Year Constructed": 2003, "Square Footage": 50840},
+      {"Year Acquired": 1990, "Year Constructed": 1989, "Square Footage": 48533},
+      {"Year Acquired": 1992, "Year Constructed": 1991, "Square Footage": 21845},
       {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
       {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
       {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
-      {
-        "Year Acquired": 1991,
-        "Year Constructed": 1990,
-        "Square Footage": 27118
-      },
+      {"Year Acquired": 1991, "Year Constructed": 1990, "Square Footage": 27118},
       {"Year Acquired": 1990, "Year Constructed": 1990, "Square Footage": 5124},
-      {
-        "Year Acquired": 1991,
-        "Year Constructed": 1991,
-        "Square Footage": 22350
-      },
-      {
-        "Year Acquired": 1995,
-        "Year Constructed": 1995,
-        "Square Footage": 11650
-      },
+      {"Year Acquired": 1991, "Year Constructed": 1991, "Square Footage": 22350},
+      {"Year Acquired": 1995, "Year Constructed": 1995, "Square Footage": 11650},
       {"Year Acquired": 1995, "Year Constructed": 1996, "Square Footage": 3468}
     ]
   },

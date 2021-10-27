@@ -1,7 +1,56 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <title>IS455-Assignment 03</title>   
+  </head>
+  <body>
+    <p>
+      This is some text.
+    </p>
+    <p>
+      This is some more text.
+    </p>
+    <div id="mybiz">
+    </div>  
+  </body>
+  <script>
+    mySpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Building in UIUC (1985-2005)",
+  "data": {
+    "values": [
+      {"Year Acquired": 2003, "Year Constructed": 2003, "Square Footage": 50840},
+      {"Year Acquired": 1990, "Year Constructed": 1989, "Square Footage": 48533},
+      {"Year Acquired": 1992, "Year Constructed": 1991, "Square Footage": 21845},
+      {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
+      {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
+      {"Year Acquired": 1993, "Year Constructed": 1993, "Square Footage": 4992},
+      {"Year Acquired": 1991, "Year Constructed": 1990, "Square Footage": 27118},
+      {"Year Acquired": 1990, "Year Constructed": 1990, "Square Footage": 5124},
+      {"Year Acquired": 1991, "Year Constructed": 1991, "Square Footage": 22350},
+      {"Year Acquired": 1995, "Year Constructed": 1995, "Square Footage": 11650},
+      {"Year Acquired": 1995, "Year Constructed": 1996, "Square Footage": 3468}
+    ]
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Year Acquired",
+      "type": "quantitative",
+      "scale": {"domain": [1985, 2005]}
+    },
+    "y": {
+      "field": "Year Constructed",
+      "type": "quantitative",
+      "scale": {"domain": [1985, 2005]}
+    },
+    "size": {"field": "Square Footage", "type": "quantitative"}
+  },
+  "config": {}
+};
+
+    vegaEmbed('#myviz', mySpec);
+  </script>
 </html>
